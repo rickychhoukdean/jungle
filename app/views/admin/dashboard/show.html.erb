@@ -1,2 +1,3 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Statistics</h1>
+<h1 class="jumbotron"><%=link_to 'Number of products in the database', :admin_products %><%= @products_count %></h1>
+<h1 class="jumbotron">Number of categories in the database <%= @categories_count %></h1>
