@@ -1,4 +1,6 @@
 class OrdersController < ApplicationController
+  before_filter :authorize
+
   def show
     @x = []
     @order = Order.find(params[:id])
