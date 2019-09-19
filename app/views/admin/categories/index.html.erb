@@ -13,16 +13,16 @@
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th colspan="2">Category</th>
-          
+          <th colspan="2">Categories</th>
         </tr>
       </thead>
       <tbody>
 
 <%@categories.each do |category|%>
 
-       <tr> <%=category.name%></tr>
 
+
+       <tr> <td><%=category.name%></td></tr>
        <%end%>
       </tbody>
     </table>
