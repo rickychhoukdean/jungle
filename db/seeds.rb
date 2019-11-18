@@ -38,7 +38,7 @@ Product.destroy_all
 cat1.products.create!({
   name: 'Men\'s Classy shirt',
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("apparel1.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/apparel1.jpg",
   quantity: 0,
   price: 64.99,
 })
@@ -46,7 +46,7 @@ cat1.products.create!({
 cat1.products.create!({
   name: 'Women\'s Zebra pants',
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("apparel2.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/apparel2.jpg",
   quantity: 18,
   price: 124.99,
 })
@@ -54,7 +54,7 @@ cat1.products.create!({
 cat1.products.create!({
   name: "Hipster Hat",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("apparel3.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/apparel3.jpg",
   quantity: 4,
   price: 34.49,
 })
@@ -62,7 +62,7 @@ cat1.products.create!({
 cat1.products.create!({
   name: "Hipster Socks",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("apparel4.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/apparel4.jpg",
   quantity: 8,
   price: 25.00,
 })
@@ -70,7 +70,7 @@ cat1.products.create!({
 cat1.products.create!({
   name: "Russian Spy Shoes",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("apparel5.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/apparel5.jpg",
   quantity: 8,
   price: 1_225.00,
 })
@@ -78,7 +78,7 @@ cat1.products.create!({
 cat1.products.create!({
   name: "Human Feet Shoes",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("apparel6.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/apparel6.jpg",
   quantity: 82,
   price: 224.50,
 })
@@ -86,7 +86,7 @@ cat1.products.create!({
 cat2.products.create!({
   name: "Modern Skateboards",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("electronics1.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/electronics1.jpg",
   quantity: 40,
   price: 164.49,
 })
@@ -94,7 +94,7 @@ cat2.products.create!({
 cat2.products.create!({
   name: "Hotdog Slicer",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("electronics2.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/electronics2.jpg",
   quantity: 3,
   price: 26.00,
 })
@@ -102,7 +102,7 @@ cat2.products.create!({
 cat2.products.create!({
   name: 'World\'s Largest Smartwatch',
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("electronics3.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/electronics3.jpg",
   quantity: 32,
   price: 2_026.29,
 })
@@ -110,7 +110,7 @@ cat2.products.create!({
 cat3.products.create!({
   name: "Optimal Sleeping Bed",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("furniture1.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/furniture1.jpg",
   quantity: 320,
   price: 3_052.00,
 })
@@ -118,7 +118,7 @@ cat3.products.create!({
 cat3.products.create!({
   name: "Electric Chair",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("furniture2.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/furniture2.jpg",
   quantity: 2,
   price: 987.65,
 })
@@ -126,7 +126,7 @@ cat3.products.create!({
 cat3.products.create!({
   name: "Red Bookshelf",
   description: Faker::Hipster.paragraph(4),
-  image: open_asset("furniture3.jpg"),
+  image: "https://junglelhl.s3.ca-central-1.amazonaws.com/furniture3.jpg",
   quantity: 23,
   price: 2_483.75,
 })

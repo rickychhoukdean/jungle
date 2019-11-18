@@ -4,7 +4,7 @@
 <aside class="empty-product">SOLD OUT!</aside>
   <% end %>
     <%= link_to product do %>
-      <%= image_tag product.image.thumb, alt: product.name %>
+      <%= image_tag product.image, alt: product.name %>
       <h4><%= product.name %></h4>
     <% end %>
   </header>
